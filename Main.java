@@ -18,12 +18,6 @@ public class Main {
      {
          System.out.println( Seats[i] );
      }
-      int count = 1;
-while (count <= 10)
-{
-    count *= 2;
-}
-count = count - 10;
 
      Scanner scan = new Scanner(System.in);
 
