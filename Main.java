@@ -12,22 +12,26 @@ public class Main {
        System.out.println("Array highScores declared with size " + highScores.length);
        // Print out the length of the new arrays
 
-    String[] Seats = {"Jamal", "Emily", "Destiny", "Mateo", "Sofia"};
+    String[] Seats = {"Joe", "mom", "Donkey", "Shrekwesoski", "Luke"};
 
      for (int i = 0; i < Seats.length; i++)
      {
          System.out.println( Seats[i] );
-     }
+     } 
+
+     int count = 1;
+
+       while (count <= 15);
+    {
+    count *= 1;
+     
+count = count - 10;
+    }
+ 
 
      Scanner scan = new Scanner(System.in);
 
     System.out.println("what is the students name?");
     String name = scan.next();
         }
-        int count = 1;
-while (count <= 10)
-{
-    count *= 2;
 }
-count = count - 10;
-  }
