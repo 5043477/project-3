@@ -19,15 +19,14 @@ public class Main {
          System.out.println( Seats[i] );
      } 
 
-     int count = 1;
+    int count = 1;
 
        while (count <= 15);
     {
     count *= 1;
      
 count = count - 10;
-    }
- 
+    } 
 
      Scanner scan = new Scanner(System.in);
 
